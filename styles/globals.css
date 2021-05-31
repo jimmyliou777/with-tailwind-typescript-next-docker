@@ -1,0 +1,44 @@
+:root {
+    --theme-color: #6bde99;
+    --background-color: #2c2c2c;
+    --background-avg-color: #3d4941;
+  }
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  @media screen {
+    .screen\:text-center {
+      text-align: center;
+    }
+  }
+  
+  @media print {
+    .print\:hidden {
+      display: none;
+    }
+  
+    .print\:inline-block {
+      display: inline-block;
+    }
+  
+    .print\:block {
+      display: block;
+    }
+  
+    .print\:inline {
+      display: inline;
+    }
+  }
+  
+  body {
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  }
+  
+  @media screen {
+    html {
+      font-size: 18px;
+    }
+  }
+  
