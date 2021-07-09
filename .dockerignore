@@ -1,0 +1,13 @@
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+.next
+.eslintrc.js
+.eslintignore
+.prettierrc.js
+.prettierignore
+.git
+.gitignore
+.vscode
