@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Button from '../components/Button';
+import Button from '~/components/Button';
 
 export default function Home(): JSX.Element {
     return (

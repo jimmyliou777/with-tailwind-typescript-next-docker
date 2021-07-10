@@ -1,6 +1,6 @@
 import React from 'react';
 // import 'tailwindcss/tailwind.css'
-import '../styles/globals.css';
+import '~/styles/globals.css';
 type Props = {
     Component: any;
     pageProps: any;
